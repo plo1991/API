@@ -1,0 +1,43 @@
+﻿GET
+ObterAnuncios
+https://localhost:44367/api/anuncios
+
+
+GET
+Obter_Anuncio_PorID
+https://localhost:44367/api/anuncios/1
+
+
+POST
+Cadastrar_Anuncio
+https://localhost:44367/api/anuncios
+
+Body > JSON
+
+ {
+ 	"marca":"Nissan",
+ 	"modelo":"March",
+ 	"versao":"2.0",
+ 	"ano":2020,
+ 	"quilometragem":8000,
+ 	"observacao":"Médio veículo",
+	"Ativo" true:,
+	"Criado":"2021-02-26"
+ }
+ 
+
+
+ PUT
+ https://localhost:44367/api/anuncios/1
+
+ {
+ 	"marca":"Hyundai",
+ 	"modelo":"i30",
+ 	"versao":"2.0",
+ 	"ano":2013,
+ 	"quilometragem":85000,
+ 	"observacao":"Médio veículo"
+ }
+
+ -- filtro data exemplo https://localhost:44367/api/anuncios?data=2021-03-08
+ -- filtro paginação exemplo https://localhost:44367/api/anuncios?pagNum=1&pagRegistro=2 

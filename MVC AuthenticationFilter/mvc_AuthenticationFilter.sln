@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mvc_AuthenticationFilter", "mvc_AuthenticationFilter\mvc_AuthenticationFilter.csproj", "{B563C069-F6D8-4A3D-95DA-07B852EC6B84}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B563C069-F6D8-4A3D-95DA-07B852EC6B84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B563C069-F6D8-4A3D-95DA-07B852EC6B84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B563C069-F6D8-4A3D-95DA-07B852EC6B84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B563C069-F6D8-4A3D-95DA-07B852EC6B84}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4279B549-A1FA-47E9-A879-EE4B4FBB3482}
+	EndGlobalSection
+EndGlobal
